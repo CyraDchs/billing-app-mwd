@@ -6,6 +6,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public appPages = [
-    ];
-    constructor() {}
+    { title: 'Dashboard', url: '/home', icon: 'home' },
+    { title: 'Announcements', url: '/announcemet', icon: 'person' },
+    { title: 'Amount Payable', url: '/amountpayable', icon: 'code' },
+    { title: 'Monthly Expenses', url: '/MonthlyExpenses', icon: 'call' },
+    { title: 'Average Water Consumption', url: '/ave', icon: 'call' },
+  ];
+  // public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
+  private currentColor: string;
+  constructor() {
+    this.currentColor = 'light';
+  }
+  changeToDarkColor() {
+    this.currentColor = 'dark';
+}
 }

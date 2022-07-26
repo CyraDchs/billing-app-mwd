@@ -1,7 +1,6 @@
 <ion-header>
   <ion-toolbar color="tertiary">
-    <ion-title>Test</ion-title>
-
+    <ion-title class="title-large">Dashboard</ion-title>
     <ion-buttons slot="start">
       <ion-menu-button autoHide="false"></ion-menu-button>
     </ion-buttons>
@@ -22,8 +21,94 @@
     </ion-item>
   </ion-list>
 
-  <ion-card>
+  <ion-grid>
+    <ion-row >
+      <!-- announcements -->
+      <ion-col class="ion-text-center">
+        <ion-card class="blue">
 
-  </ion-card>
+          <div class="card-icon-circle">
+            <ion-icon name="notifications-circle-outline"></ion-icon>
+          </div>
+          
+          <div class="card-content whitetext">
+            <div class="card-title">
+              <ion-text>Announcements</ion-text>
+            </div>
+            <div class="spacer">
+              <ion-text><strong>Scheduled Water Interuption</strong><br>Installing new pipes<br>Affected areas: <br>Whole MWD except Tingloy.
+              </ion-text>
+            </div>
+          </div>        
 
+        </ion-card>
+      </ion-col>
+
+      <!--  -->
+      <ion-col class="ion-text-center">
+        <ion-card class="orange">
+
+          <div class="card-icon-circle">
+            <ion-icon class="orangebg" name="receipt-outline"></ion-icon>
+          </div>
+          
+          <div class="card-content whitetext">
+            <div class="card-title">
+              <ion-text>Amount Payable</ion-text>
+            </div>
+            <div class="spacer">
+              <ion-text style="font-size: 23px;"><strong>P 344.55</strong><br>
+              </ion-text>
+            </div>
+          </div>        
+
+        </ion-card>
+      </ion-col>
+
+    </ion-row>
+
+    <ion-row >
+      <!-- announcements -->
+      <ion-col class="ion-text-center">
+        <ion-card class="orange">
+
+          <div class="card-icon-circle">
+            <ion-icon class="orangebg" name="receipt-outline"></ion-icon>
+          </div>
+          
+          <div class="card-content whitetext">
+            <div class="card-title">
+              <ion-text>Amount Payable</ion-text>
+            </div>
+            <div class="spacer">
+              <ion-text style="font-size: 23px;"><strong>P 344.55</strong><br>
+              </ion-text>
+            </div>
+          </div>        
+
+        </ion-card>
+      </ion-col>
+
+      <ion-col class="ion-text-center">
+        <ion-card class="orange">
+
+          <div class="card-icon-circle">
+            <ion-icon class="orangebg" name="receipt-outline"></ion-icon>
+          </div>
+          
+          <div class="card-content whitetext">
+            <div class="card-title">
+              <ion-text>Amount Payable</ion-text>
+            </div>
+            <div class="spacer">
+              <ion-text style="font-size: 23px;"><strong>P 344.55</strong><br>
+              </ion-text>
+            </div>
+          </div>        
+
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
 </ion-content>
