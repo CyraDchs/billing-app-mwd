@@ -31,9 +31,14 @@ ion-title.title-large {
 }
 ion-grid{
     // display: grid;
-    justify-content: space-between;
-    grid-column: auto/span 2;
-    grid-row: auto/span 2;
+    // justify-content: space-between;
+    // grid-column: auto/span 2;
+    // grid-row: auto/span 2;
+    // display: grid;
+    // grid-template-rows: 1fr repeat(4,2fr) 1fr;
+    // grid-gap: 5px;
+    // height: 100vh;
+    // grid-gap: 5px;
 }
 .card-title{
     font-size: 18px;
@@ -46,6 +51,9 @@ ion-grid{
     left: 0;
     top: 0;
     // background: hsla(0, 100%, 50%, 0.4);
+}
+.card-icon-circle{
+
 }
 ion-icon {
     color: white;
@@ -62,6 +70,9 @@ ion-icon {
 }
 ion-icon.orangebg{
     background-color: #fa974c;
+}
+ion-icon.lightbg{
+    background-color: #cfcfcf;
 }
 .card-content{
     padding-top: 80px;
