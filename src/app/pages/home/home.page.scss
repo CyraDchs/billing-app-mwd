@@ -63,6 +63,10 @@ ion-icon {
 ion-icon.orangebg{
     background-color: #fa974c;
 }
+ion-icon.lightbg{
+    color: #233761;
+    background-color: #e3e2e3;
+}
 .card-content{
     padding-top: 80px;
 }
@@ -71,6 +75,12 @@ ion-icon.orangebg{
 }
 ion-text.whitetext{
     color: white;
+}
+.card-content.darktext{
+    color: #233761;
+}
+ion-text.darktext{
+    color: #233761;
 }
 .spacer{
     padding-top: 8px;
